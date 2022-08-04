@@ -1,0 +1,14 @@
+.card__description_wrapper {
+  padding-top: 3.3rem;
+}
+.card__description {
+  margin-bottom: 2.4rem;
+}
+.card__description--title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.card__description--text {
+  font-size: 1.024rem;
+}

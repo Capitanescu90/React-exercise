@@ -1,0 +1,68 @@
+.card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.1rem;
+}
+.card__info--name {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.card__info--job {
+  font-size: 1.28rem;
+  color: #f3bf99;
+}
+
+.card__info--buttons {
+  margin-block: 1.5rem 3.3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card__info--buttons a:link,
+.card__info--buttons a:visited {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  line-height: 1.15;
+}
+.card__info--buttons a:link:first-child,
+.card__info--buttons a:visited:first-child {
+  font-size: 1.4rem;
+  color: #374151;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  padding: 0.5625em 1.78125em;
+  transition: all 0.4s;
+}
+.card__info--buttons a:hover:first-child,
+.card__info--buttons a:active:first-child {
+  color: #ffffff;
+  background: #ca490e;
+}
+.card__info--buttons a:link:last-child,
+.card__info--buttons a:visited:last-child {
+  font-size: 1.4rem;
+  color: #fff;
+  background: #5093e2;
+  padding: 0.5625em 1.125em;
+  transition: all 0.4s;
+}
+.card__info--buttons a:hover:last-child,
+.card__info--buttons a:active:last-child {
+  color: #374151;
+  background: #ffffff;
+}
+.linkedin {
+  margin-left: 0.933rem;
+}
+.card__info--buttons a:link:first-child i,
+.card__info--buttons a:visited:first-child i {
+  font-size: 1.28rem;
+  margin-right: 0.96rem;
+}
+/* font-size: 1.6rem; */
+.card__info--buttons a:link:last-child i,
+.card__info--buttons a:visited:last-child i {
+  font-size: 1.6rem;
+  margin-right: 0.96rem;
+}
